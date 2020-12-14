@@ -1,0 +1,16 @@
+<div class="table100">
+    <table>
+        <thead>
+            <tr class="table100-head">
+                <th class="column1">Restaurante</th>
+                <th class="column2">Ciudad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of items;">
+                <td class="column1">{{item.nombre}}</td>
+                <td class="column2">{{item.ciudad}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

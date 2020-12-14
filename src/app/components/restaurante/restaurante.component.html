@@ -1,0 +1,16 @@
+<div class="limiter">
+
+    <div class="container-table100">
+        <h1>{{title}}</h1>
+        <div class="wrap-table100">
+            <div class="table100 mb-4">
+                <form>
+                    <app-restaurante-input (value)="agregar($event, $event)"></app-restaurante-input>
+                </form>
+            </div>
+            <div class="table100">
+                <app-restaurante-body [items]="items"></app-restaurante-body>
+            </div>
+        </div>
+    </div>
+</div>
